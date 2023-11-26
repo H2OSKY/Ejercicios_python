@@ -7,3 +7,11 @@ tupla_invertida = tuple(reversed(tupla))
 
 print("Tupla normal", tupla)
 print("Tupla invertida", tupla_invertida)
+
+print(len(tupla))
+
+i = len(tupla)-1
+while i > 0:
+    i -= 1
+    print(tupla[i])
+    

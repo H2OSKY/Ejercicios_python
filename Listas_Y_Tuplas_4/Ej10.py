@@ -4,7 +4,7 @@
 
 def encontrar_mayor_menor(lista):
     if not lista:
-        return None, None  # Devuelve None si la lista está vacía
+        return None, None 
 
     mayor = menor = lista[0]
 
@@ -16,7 +16,7 @@ def encontrar_mayor_menor(lista):
 
     return mayor, menor
 
-numeros = [12, 5, 8, 23, 7, 15]
+numeros = [12, 5, 8, 23, 7, 15, -1]
 
 mayor, menor = encontrar_mayor_menor(numeros)
 
