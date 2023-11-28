@@ -29,6 +29,7 @@ def generarContrasena(num_min, num_may, numbers, num_esp):
     random.shuffle(password_list)
     return ''.join(password_list)
 
+print(generarContrasena(10, 1, 1, 1))
 
 with open("PassRecomendadas/password.txt", "w") as archivo:
     archivo.write(generarContrasena(10, 1, 1, 1))
