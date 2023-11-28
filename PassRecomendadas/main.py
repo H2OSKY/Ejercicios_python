@@ -30,7 +30,7 @@ def generarContrasena(num_min, num_may, numbers, num_esp):
     return ''.join(password_list)
 
 
-with open("PassRecomendadas/Contrasepassword.txt", "w") as archivo:
+with open("PassRecomendadas/password.txt", "w") as archivo:
     archivo.write(generarContrasena(10, 1, 1, 1))
 
 
